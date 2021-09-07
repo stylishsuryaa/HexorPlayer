@@ -2,7 +2,7 @@
   "name": "Patricia",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/ophexor/MusicSanki",
+  "repository": "https://github.com/HEXOROP/EsportPlayer",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -13,9 +13,9 @@
       "description": "A bot token from @BotFather",
       "required": true
     },
-    "BOT_NAME": {
-      "description": "Your MusicPlayer Bot Name.",
-      "required": false,
+    "BOT_USERNAME": {
+      "description": "fill with your bot username without @.",
+      "required": true,
       "value": ""
     },
     "API_ID": {
