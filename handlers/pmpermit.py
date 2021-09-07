@@ -1,9 +1,9 @@
 from callsmusic.callsmusic import client as USER
 from pyrogram import filters
 from pyrogram.types import Chat, Message, User
-
+from config import BOT_USERNAME, GROUP_SUPPORT
 
 @USER.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
 async def pmPermit(client: USER, message: Message):
-  await USER.send_message(message.chat.id,"⚡-'ʜᴇʟʟᴏ\n⭐ʜᴇʀᴇ ᴀꜱꜱɪꜱᴛᴀɴᴄᴇ ᴏꜰ ꜱᴍᴏᴋᴇʀ ᴍᴜꜱɪᴄ ʙᴏᴛ\n🌼ꜰᴏʀ ʜᴇʟᴘ ᴅᴍ - @SankiPublicEnjoy\n🌺ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ - @Its_Hexor\n🌸ᴅᴏɴᴛ ꜱᴘᴀᴍ ʜᴇʀᴇ\n🌠ʜᴇxᴏʀ xᴅ <3\n🌠ꜱᴍᴏᴋᴇʀ xᴅ<3\n")
+  await USER.send_message(message.chat.id,"💕𝗛𝗲𝗿𝗲 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝗰𝗲 𝗢𝗳 @{BOT_USERNAME}\n✨𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗕𝘆 @𝗔𝗯𝗼𝘂𝘁𝗛𝗲𝘅𝗼𝗿\n🌟𝗗𝗼𝗻𝘁 𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲")
   return                        
